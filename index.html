@@ -9,38 +9,74 @@
     <body>
         <nav class="navbar">
             <h1 class="logo">
-                <a href="index.html">Rachana's Website</a>
+                <a href="index.html">Rachana's Portfolio</a>
             </h1>
             <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="#about">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="resume.html">Resume</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <main>
-            <h1 class="page-title">Welcome to Rachana's website!</h1>
-            <div class="about">
-                <div class="about-image">
-                    <img src="selfie.jpg" alt="Image of Rachana - the creator of the website">
-                </div>
-                <div class="about-information">
-                    <div class="about-text">
-                        <p>Hello! I'm <strong>Rachana</strong> (she/her) and I'm a first year computer science student.</p>
-                        <p>I'm excited to learn more about computer science and its applications to solve problems and help people out!</p>
-                        <p>In my free time I love to read books and listen to music!</p>
+            <section class="about" id="about">
+                <h1 class="page-title">Welcome, I'm Rachana!</h1>
+                <div class="about-container">
+                    <div class="about-image">
+                        <img src="pfp.jpg" alt="Image of Rachana - the creator of the website">
                     </div>
-                    <div class="about-link">
-                        <a href="https://www.linkedin.com/in/rachana-raju/">
-                            <img src="linkedin.png" height="100 px" alt="image of a purple linkedin logo which links to Rachana's linkedin"/>
-                        </a>
-                        <a href="https://github.com/rachanaraju3">
-                            <img src="github1.jpeg" height="100 px" alt="Image of a purple github logo linking to Rachana's github">
-                        </a>
+                    <div class="about-information">
+                        <div class="about-text">
+                            <p>Hello! I'm <strong>Rachana</strong> (she/her) and I'm a second year computer science student at Cal Poly SLO.</p>
+                            <p>I’m eager to learning new technologies and expanding upon my knowledge through real life applications.</p>
+                            <p>In my free time I love to read books, crochet, bullet journal, and listen to music!</p>
+                        </div>
+                        <div class="about-link">
+                            <a href="https://www.linkedin.com/in/rachana-raju/">
+                                <img src="linkedin.png" height="100 px" alt="image of a purple linkedin logo which links to Rachana's linkedin"/>
+                            </a>
+                            <a href="https://github.com/rachanaraju3">
+                                <img src="github1.jpeg" height="100 px" alt="Image of a purple github logo linking to Rachana's github">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="portfolio" id="projects">
+                <h1>Projects</h1>
+                <div class="card-container">
+                    <div class="card">
+                        <a href="https://github.com/sophiapeckner/calpoly_ratemy">
+                            <img src="rainbowratec.png" alt="Image of rainbow rate's homepage featuring a colorful star and the words 'rainbow rate'" >
+                            <div class="container">
+                                <h4><b>Rainbow Rate</b></h4>
+                                <p>Web App that allows Cal Poly Students to rate how LGBTQ+ friendly the different organizations on campus are.</p>
+                              </div>
+                        </a>    
+                    </div>
+                    <div class="card">
+                        <a href="https://github.com/sophiapeckner/calpoly_ratemy">
+                            <img src="ufoc.png" alt="Image of a data analyzation dashboard">
+                            <div class="container">
+                                <h4><b>UFO Data Visualization</b></h4>
+                                <p>Webpage analyzing data on UFO sightings across the US.</p>
+                              </div>
+                        </a>    
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <h1>Contact Info</h1>
+                <p>Feel free to message me through on LinkedIn or shoot me an email!</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/rachana-raju/">
+                        <img src="linkedincontact.png">
+                    </a>
+                    <a href="mailto:rachanaraju03@gmail.com">
+                        <img src="email.png">
+                    </a>
+                </div>
+            </section>    
         </main>
         <footer class="footer"> © 2023 Rachana's Website | All Rights Reserved</footer>
     </body>
