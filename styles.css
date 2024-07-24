@@ -94,7 +94,7 @@ html {
   .about-image img {
     max-width: 300px;
     border-radius: 3px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
   .about-text {
@@ -163,6 +163,12 @@ html {
     border: 1px solid black;
     border-radius: 15px;
     background-color: #efd1e4;
+}
+
+.card:hover{
+  border: 2px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  opacity: 100%;
 }
 
 .card p {
