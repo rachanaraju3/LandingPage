@@ -42,12 +42,30 @@ html {
     /* Debug border */
     /* border: solid red; */
   }
+
+  .nav-links{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    list-style: none;
+    right: 30px;
+  }
+
+  .nav-links img{
+    height: 35px;
+  }
+
+  .nav-links .resume{
+    filter: invert(19%) sepia(20%) saturate(921%) hue-rotate(251deg) brightness(93%) contrast(87%);
+  }
   
   .nav-list {
     display: flex;
     flex-direction: row;
+    /* margin: auto; */
+    transform:translateX(-15%);
     position: relative;
-    right: 30px;
+    left: 10px;
     list-style: none;
   }
   
@@ -84,6 +102,22 @@ html {
     border: 1px solid #ccc;
     border-radius: 5px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+
+  button{
+    background-color: rgb(211, 162, 246);
+    border: 2px solid rgb(108, 6, 181);
+    color: rgb(108, 6, 181);
+    font-size: 18px;
+    padding: 15px;
+    /* float: right; */
+    align-items: center;
+    border-radius: 5px;
+    
+  }
+
+  button:hover {
+    background-color: rgb(181, 139, 211);
   }
 
   .about h1 {
@@ -152,12 +186,15 @@ html {
   grid-template-columns: repeat(2, 1fr);
   /* display: flex;
   flex-flow: row; */
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .card {
     width: 90%;
-    margin: 5px 5px 15px 15px;
+    /* margin: 5px 5px 15px 15px; */
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
